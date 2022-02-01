@@ -1,6 +1,6 @@
 let x = true;
-function tofa (x){
+function checktypeofargument (x){
     console.log(typeof x);
 }
-tofa(x);
+checktypeofargument(x);
 

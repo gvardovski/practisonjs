@@ -1,5 +1,5 @@
-let apple = 1;
-let pear = 3;
+const apple = 1;
+const pear = 3;
 function sym(a,p){
     return a+p;
 }

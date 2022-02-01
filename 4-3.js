@@ -1,11 +1,10 @@
-let n1 = "Генадий";
-let n = "Станислав";
-function cheсkn(a,b){
-    if ( b == a ){
-        console.log("Привет "+b);
+let username = "Станислав";
+function cheсkname(name){
+    if ( name === "Станислав" ){
+        console.log("Привет "+name);
     }
     else{
         console.log("Нет такого имени");
     }
 }
-cheсkn(n,n1);
+cheсkname(username);
