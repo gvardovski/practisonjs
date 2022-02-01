@@ -9,8 +9,8 @@ catch (e)
 
 try{
     let a=1,b=0;
-    if (b===0){
-        throw new SyntaxError("на ноль делить нельзя");
+    if ((a / b) === Infinity ){
+        throw new Error("На ноль делить нельзя");
     } else {let x = a / b;}
 }
 catch (err)
